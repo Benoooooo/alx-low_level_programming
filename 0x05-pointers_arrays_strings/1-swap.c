@@ -1,12 +1,15 @@
-#include <studio>
+#include "main.h"
 /**
  *swap_int -  swaps the values of two integers
- *
- *Return: always 0
+ *@a: integer to swap
+ *@b: integer to swap
  */
 
 void swap_int(int *a, int *b)
 {
-	*a = 42;
-	*b = 98
+	int m;
+
+	m = *a;
+	*a = *b;
+	*b = m;
 }
