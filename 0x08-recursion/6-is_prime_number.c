@@ -21,11 +21,11 @@ int is_divisible(int num, int div)
 }
 
 /**
- *_prime_number - checks if a mumbe is prime.
- *@n: is the number to be checked
+ * is_prime_number - Checks if a number is prime.
+ * @n: The number to be checked.
  *
- *Return: if the integer is not prime - 0.
- *        if the number is prime - 1.
+ * Return: If the integer is not prime - 0.
+ *         If the number is prime - 1.
  */
 
 int is_prime_number(int n)
