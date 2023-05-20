@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
 * main - function that checks for random number
 * n@ is the number that check for conditions
