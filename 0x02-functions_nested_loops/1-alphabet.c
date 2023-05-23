@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * main - prints alphabets from a to z
- * Return: the value
+ * print_alphabet - prints alphabets from a to z
+ *
+ * Return: the value the code to main
  */
 void print_alphabet(void)
 {
 	char a;
+
 	a = 'a';
 
 	while (a <= 'z')
@@ -14,6 +16,4 @@ void print_alphabet(void)
 		a++;
 	}
 	_putchar('\n');
-
-	return;
 }
