@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "main.h"
 /**
+ * print_alphabet_x10 -print alphabet into 10 times
  * a@: prints to the number of time
  * b@: prints the alphabets
- * Return: the out put to the main
  */
 void print_alphabet_x10(void)
 {
@@ -21,5 +21,4 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 		a++;
 	}
-	return;
 }
