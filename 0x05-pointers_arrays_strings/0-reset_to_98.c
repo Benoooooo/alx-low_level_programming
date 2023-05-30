@@ -1,8 +1,7 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * resest_to _98 - takes a pointer to an in to as parameter
+ * reset_to_98 -  function that takes a pointer to an int as parameter
  * @n: is the pointer to 98
- * @98: the vaslue to return
  */
 void reset_to_98(int *n)
 {
