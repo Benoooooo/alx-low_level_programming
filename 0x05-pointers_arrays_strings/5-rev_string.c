@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * rev_string - checks and reverse the string
- * @s: is the string
+ * rev_string - Reverses a string
+ * @s: Input string
  * Return: String in reverse
  */
+
 void rev_string(char *s)
 {
 	char rev = s[0];
@@ -20,3 +22,4 @@ void rev_string(char *s)
 		s[counter] = rev;
 	}
 }
+
