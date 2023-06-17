@@ -20,9 +20,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		return ("");
 	}
-       
+
 	lent1 = strlen(s1);
-       	lent2 = strlen(s2);
+	lent2 = strlen(s2);
 
 	concat = (char *) malloc((lent1 + lent2 + 1) * sizeof(char));
 
