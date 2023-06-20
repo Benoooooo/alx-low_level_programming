@@ -6,5 +6,5 @@
  * Desc: function like macro
  * ABS that computes the absolute value of number x
  */
-#define ABS(x) ((-x) < (x) ? (x) : (-x))
+#define ABS(x) ((x) < 0 ? -(x) : (x))
 #endif
