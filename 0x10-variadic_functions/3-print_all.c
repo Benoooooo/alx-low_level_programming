@@ -1,7 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-
 typedef struct {
 	    const char *symbol;
 	        void (*print)(va_list);
@@ -14,10 +13,10 @@ void print_string(va_list arg);
 void print_all(const char * const format, ...);
 
 /**
-*  * print_char - Prints a char.
-*   * @arg: A list of arguments pointing to
-*    *       the character to be printed.
-*     */
+* print_char - Prints a charaters in the code.
+* @arg: A list of arguments pointing to
+*       the character to be printed.
+*/
 void print_char(va_list arg)
 {
 char letter;
@@ -27,7 +26,7 @@ printf("%c", letter);
 }
 
 /**
-* print_int - Prints an int.
+* print_int - Prints an integers or numbers int the code
 * @arg: A list of arguments pointing to
 *       the integer to be printed.
 */
@@ -40,7 +39,7 @@ printf("%d", num);
 }
 
 /**
-* print_float - Prints a float.
+* print_float - Prints a float or decimal numbers in the code
 * @arg: A list of arguments pointing to
 *       the float to be printed.
 */
@@ -53,7 +52,7 @@ printf("%f", num);
 }
 
 /**
-* print_string - Prints a string.
+* print_string - Prints a string of all kind
 * @arg: A list of arguments pointing to
 *       the string to be printed.
 */
@@ -73,14 +72,14 @@ printf("%s", str);
 }
 
 /**
-*  * print_all - Prints anything, followed by a new line.
-*   * @format: A string of characters representing the argument types.
-*    * @...: A variable number of arguments to be printed.
-*     *
-*      * Description: Any argument not of type char, int, float,
-*       *              or char * is ignored.
-*        *              If a string argument is NULL, (nil) is printed instead.
-*         */
+* print_all - Prints anything, followed by a new line.
+* @format: A string of characters representing the argument types.
+* @...: A variable number of arguments to be printed.
+*
+* Description: Any argument not of type char, int, float,
+*              or char * is ignored.
+*              If a string argument is NULL, (nil) is printed instead.
+*/
 void print_all(const char * const format, ...)
 {
 va_list args;
