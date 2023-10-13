@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-for i in range(99):
-    print('{} ={}'.format(i, chr[)]))
+# file: 4-print_hexa.py
+# Auth: kelechi nnadi <alx swe>
+
+for i in range(0, 99):
+    print("{} = {}".format(i, hex(i)))
