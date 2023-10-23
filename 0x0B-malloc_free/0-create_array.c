@@ -1,37 +1,38 @@
-#include "main.h"
+/*
+ * file: 0-create_array.c
+ * Auth: kelechi nnaid <alx swe>
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+
 /**
-* create_array - create arrarys of characters
-* @size: is the size of the charater
-* @c: is the character to be printed
-* Return: NULL if size is 0 and ctr if NULL
-* else return crt;
-*/
+ * create_array - function that creacts an array of chars and init it with a char
+ * @size: is the size of the character or number of chars
+ * @c: the charater pointer to the array
+ * Return:  a pointer to the array or Null if it falls
+ */
 char *create_array(unsigned int size, char c)
 {
-char *crt;
-unsigned int lent;
-if (size == 0)
-{
-return (NULL);
-}
+	unsigned int i;
+	char *a;
 
-crt = (char *)malloc(size * sizeof(char));
-
-if (crt == NULL)
-{
-return (NULL);
-}
-lent = 0;
-while (lent < size)
-{
-
-crt[lent] = c;
-
-lent++;
-
-}
-
-return (crt);
+	if (size == 0)
+	{
+		return (NULL);
+	}
+	a = malloc(sizeof(char) * size);
+	if (a == NULL)
+	{
+		return (NULL);
+	}
+	i = 0;
+	while (i < size)
+	{
+		a[i] = c;
+		i++;
+	}
+	a[i] = '\0';
+	return (a);
 }
