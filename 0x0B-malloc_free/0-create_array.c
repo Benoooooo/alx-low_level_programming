@@ -8,7 +8,8 @@
 #include "main.h"
 
 /**
- * create_array - function that creacts an array of chars and init it with a char
+ * create_array - function that creacts an array of chars
+ *                 and init it with a char
  * @size: is the size of the character or number of chars
  * @c: the charater pointer to the array
  * Return:  a pointer to the array or Null if it falls
