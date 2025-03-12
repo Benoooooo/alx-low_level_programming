@@ -10,17 +10,16 @@
 void print_alphabet_x10(void)
 {
 	int row = 0;
-	char alpha = 'a';
 
 	while (row < 10)
 	{
+		char alpha = 'a';
 		while (alpha <= 'z')
 		{
 			_putchar(alpha);
 			alpha++;
 		}
 		_putchar('\n');
-		alpha = 'a';
 		row++;
 	}
 }
