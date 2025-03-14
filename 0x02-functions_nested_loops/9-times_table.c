@@ -13,7 +13,7 @@ void times_table(void)
 	while (row <= 9)
 	{
 		num = 0;
-		while (num <= 9)  
+		while (num <= 9)
 		{
 			int ans = row * num;
 
