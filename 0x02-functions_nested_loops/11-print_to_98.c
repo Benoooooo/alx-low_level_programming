@@ -41,16 +41,9 @@ void print_to_98(int n)
 		}
 		_putchar('\n');
 	}
-}
+	else
+	{
 
-/**
- * print_rem - function that backe up the rem
- * @n: the num
- * Return: nothing
- */
-
-void print_rem(int n)
-{
 		while (n >= 98)
 		{
 			if (n > 99)
@@ -73,4 +66,5 @@ void print_rem(int n)
 			n--;
 		}
 		_putchar('\n');
+	}
 }
