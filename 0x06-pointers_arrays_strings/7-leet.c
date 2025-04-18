@@ -16,22 +16,13 @@
  */
 char *leet(char *str)
 {
-	char *ptr = str;
-	char leet_map[256] = {0};
-	
-	leet_map['a'] = leet_map['A'] = '4';
-	leet_map['e'] = leet_map['E'] = '3';
-	leet_map['o'] = leet_map['O'] = '0';
-	leet_map['t'] = leet_map['T'] = '7';
-	leet_map['l'] = leet_map['L'] = '1';
+	char o[] = "aAeEoOtTlL";
+	char l[] = "4433007711";
+	int i, j;
 
-	while (*ptr)
-	{
-		if (leet_map[(unsigned char)*ptr])
-		{
-			*ptr = leet_map[(unsigned char)*ptr];
-		}
-		ptr++;
-	}
-	return str;
+	for (i = 0; str[i]; i++)
+		for (j = 0; o[j]; j++)
+			if (str[i] == o[j])
+				str[i] = l[j];
+	return (str);
 }
