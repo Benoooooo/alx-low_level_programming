@@ -15,9 +15,16 @@ char *rot13(char *str)
 	int i, j;
 
 	for (i = 0; str[i]; i++)
+	{
 		for (j = 0; rot_13a[j]; j++)
+		{
 			if (str[i] == rot_13a[j])
+			{
 				str[i] = rot_13b[j];
+				break;
+			}
+		}
+	}
 
 	return (str);
 }
