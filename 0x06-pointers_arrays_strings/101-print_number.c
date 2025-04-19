@@ -13,10 +13,9 @@ void print_number(int n)
 		_putchar('-');
 		n = -n;
 	}
-	else if (n < -4096)
+	else
 	{
-		_putchar('-');
-		n = -n;
+		n = n;
 	}
 
 	if (n >= 1000)
