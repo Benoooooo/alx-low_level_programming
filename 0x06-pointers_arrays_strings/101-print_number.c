@@ -13,6 +13,11 @@ void print_number(int n)
 		_putchar('-');
 		n = -n;
 	}
+	else if (n < -4096)
+	{
+		_putchar('-');
+		n = -n;
+	}
 
 	if (n >= 1000)
 	{
