@@ -3,7 +3,7 @@
 /**
  * _memcpy - function tat copies memory area
  * @dest: is the pointr to the destination
- * @scr: is the pointer to the source
+ * @src: is the pointer to the source
  * @n: the bytes of copys
  * Return: dest
  */
