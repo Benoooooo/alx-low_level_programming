@@ -2,6 +2,9 @@
 
 /**
  * find_prime - function that findes the prime number
+ * @n: The number to check
+ * @find: the current divisor to tast
+ * Return: 0 if divisible, 1 if prime
  */
 int find_prime(int n, int find)
 {
