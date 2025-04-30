@@ -2,15 +2,15 @@
 /**
  * _sqrt_helper - helper function for _sqrt_recrusion
  * @n: number to find square root of
- * @guess: current guess for square root 
+ * @guess: current guess for square root
  * Return: natrual square root or -1
  */
 int _sqrt_helper(int n, int guess)
 {
 	if (guess * guess == n)
-		return guess;
+		return (guess);
 	if (guess * guess > n)
-		return -1;
+		(return -1);
 	return _sqrt_helper(n, guess + 1);
 }
 
