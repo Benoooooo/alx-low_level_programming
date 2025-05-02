@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - functions that accept two parameter and prints the number of
@@ -10,5 +11,5 @@
 int main(int argc, __attribute__((unused)) char *argv[])
 {
 	printf("%d\n", argc - 1);
-	return (0);
+	exit (0);
 }
