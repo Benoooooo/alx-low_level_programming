@@ -1,1 +1,1 @@
-#pointers array and string
+#include <stdio.h>
