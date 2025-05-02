@@ -2,7 +2,7 @@
 
 /**
  * main - checks the code
- * @argc: is the count but unsused for now
+ * @argc: is the count
  * @argv: is the main one that prints the name add a new line
  * Return: 0.
  */
