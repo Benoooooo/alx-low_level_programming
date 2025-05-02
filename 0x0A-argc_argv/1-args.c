@@ -8,9 +8,8 @@
  * @argv: is the array of numbers inputed
  * Return: 0.
  */
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused))char *argv[])
 {
-	(void)argv;
 	printf("%d\n", argc - 1);
-	exit(0);
+	return (0);
 }
