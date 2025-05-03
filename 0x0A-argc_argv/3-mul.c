@@ -7,7 +7,7 @@
  * @argv: is the charaters inputed
  * Return: 0;
  */
-int main(int argc, __attribute__((unused)) char *argv[])
+int main(int argc,  char *argv[])
 {
 	int sum, num1, num2;
 
@@ -18,8 +18,8 @@ int main(int argc, __attribute__((unused)) char *argv[])
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
-	sum  = num1 * num2;
 
+	sum = num1 * num2;
 	printf("%d\n", sum);
 	return (0);
 }
