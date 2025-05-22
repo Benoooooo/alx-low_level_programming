@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * free_grid - function that frees a 2 dimensional grid previously created ty your
- * alloc_grid function
+ * free_grid - function that frees a 2 dimensional grid previously
+ * created your alloc_grid function
  * @grid: is the grid we formally created
  * @height: is the height of pointers to array in the greid
  */
