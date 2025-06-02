@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stddef.h>
 /**
  * init_dog - function that initialixe a variable of type sturct dog
  * @d: is the pointer to the dog stuct in the main.h
