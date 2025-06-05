@@ -14,7 +14,7 @@ struct dog
 };
 
 /**
- * typedef struct dog_t - function that defines a new name for dog
+ * struct dog_t - function that defines a new name for dog
  * @name: is the name pointer to the name of the dog
  * @age: is the age of the dog in float
  * @owner: is the name of the dog owner as pointer
