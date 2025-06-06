@@ -23,7 +23,7 @@ void print_name_uppercase(char *name)
 	unsigned int i;
 
 	printf("Hello, my uppercase name is  ");
-	i = 0; 
+	i = 0;
 	while (name[i])
 	{
 		if (name[i] >= 'a' && name[i] <= 'z')
